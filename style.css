@@ -9,20 +9,21 @@
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
-    padding: 10px;
+    padding: 0px;
 }
 
 /* header */
 header {
-    background: #ffffff;
+    background: rgb(245, 244, 244);
     color: #000000;
-    padding: 10px 20px;
+    padding: 0px 0px;
 }
 .header1 {
     background: #000000;
-    color: #f7f5f5;
-    padding: 10px 20px;
+    color: #dfd9d9;
+    padding: 0px 0px;
     text-align: end;
+    font-size: smaller;
 }
 header h3 {
     font-size: 1rem;
@@ -39,13 +40,8 @@ nav a {
     color: #000000;
     text-decoration: none;
 }
-.list1 {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0px 0;
-    font-size: smaller;
-}
+
+
 .imgicon {
     border-image-width: 1%;
 }
@@ -54,6 +50,35 @@ nav a {
 /* Main content */
 main {
     padding: 20px;
+    background-image:url(./ccgs.png);
+    background-size:contain; /* Faz a imagem preencher a tela */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+     background-position: center; /* Centraliza a imagem */
+
+}
+.h1text {
+    text-align: center;
+    color: orangered;
+    font-size: 2rem;
+}
+.bigtext {
+    font-size: 3rem;
+    text-align:center ;
+    color: orangered;
+}
+.text3{
+    text-align: center;
+    font-size: smaller;
+}
+.date{
+    text-align: center;
+    font-size: 2rem;
+    color: hwb(0 50% 50%);
+}
+.local{
+    text-align: center;
+    font-size: medium;
+    color: hwb(0 18% 82% / 0.555);
 }
 
 footer {
