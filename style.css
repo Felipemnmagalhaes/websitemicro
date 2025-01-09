@@ -1,40 +1,54 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral */
+/* general style */
 body {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     line-height: 1.6;
     padding: 10px;
 }
 
-/* Cabeçalho */
+/* header */
 header {
-    background: #333;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     padding: 10px 20px;
 }
-
-header h1 {
-    font-size: 2rem;
+.header1 {
+    background: #000000;
+    color: #f7f5f5;
+    padding: 10px 20px;
+    text-align: end;
+}
+header h3 {
+    font-size: 1rem;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 0px 0;
 }
 
 nav a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
-
+.list1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0;
+    font-size: smaller;
+}
+.imgicon {
+    border-image-width: 1%;
+}
 
 
 /* Main content */
