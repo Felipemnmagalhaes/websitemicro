@@ -54,36 +54,51 @@ main {
     background-size:contain; /* Faz a imagem preencher a tela */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
      background-position: center; /* Centraliza a imagem */
+    
 
 }
 .h1text {
     text-align: center;
     color: orangered;
     font-size: 2rem;
+    padding: 40px;
 }
 .bigtext {
     font-size: 3rem;
     text-align:center ;
     color: orangered;
+    height: 100px;
+    padding: 40px;
 }
 .text3{
     text-align: center;
     font-size: smaller;
+    padding: 40px;
+    padding-top: 200px;
 }
 .date{
     text-align: center;
     font-size: 2rem;
     color: hwb(0 50% 50%);
+    padding: 90px;
 }
 .local{
     text-align: center;
     font-size: medium;
     color: hwb(0 18% 82% / 0.555);
+    padding: 30px;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
+}
+.tittlediv{
+    text-align: center;
+    color: aliceblue;
+}
+.div2{
+    background-color: rgb(26, 25, 25);
 }
 /* Estilos para telas menores (mobile) */
 @media (max-width: 768px) {
