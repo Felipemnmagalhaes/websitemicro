@@ -50,43 +50,57 @@ nav a {
 /* Main content */
 main {
     padding: 20px;
-    background-image:url(./ccgs.png);
-    background-size:contain; /* Faz a imagem preencher a tela */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-     background-position: center; /* Centraliza a imagem */
+    background-image:url(./fundo.png);
+    background-size:cover; /* image fill the screen */
+    background-repeat: no-repeat; 
+     background-position: center; /* image centralized */
     
 
 }
 .h1text {
     text-align: center;
-    color: orangered;
+    color: #EC5242;
     font-size: 2rem;
-    padding: 40px;
+   
 }
 .bigtext {
-    font-size: 3rem;
-    text-align:center ;
-    color: orangered;
-    height: 100px;
-    padding: 40px;
+    font-size: 3em;
+            font-weight: bold;
+            background: linear-gradient(45deg, #ffbb00, orange, #e2500c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; /* Necessário para o efeito funcionar */
+        }
+    
+    
+</style>
+   
 }
 .text3{
     text-align: center;
     font-size: smaller;
-    padding: 40px;
-    padding-top: 200px;
+    color:#D3D3D3;
+}
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #272A31;
+    border: 1px solid #D3D3D3;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .date{
     text-align: center;
     font-size: 2rem;
-    color: hwb(0 50% 50%);
-    padding: 90px;
+    color: #e22929;
+    
 }
 .local{
     text-align: center;
     font-size: medium;
-    color: hwb(0 18% 82% / 0.555);
-    padding: 30px;
+    color: hsla(0, 98%, 53%, 0.557);
+   
 }
 
 footer {
@@ -95,12 +109,12 @@ footer {
 }
 .tittlediv{
     text-align: center;
-    color: aliceblue;
+    color: hsl(208, 15%, 67%);
 }
 .div2{
     background-color: rgb(26, 25, 25);
 }
-/* Estilos para telas menores (mobile) */
+/* style for smaller mobile screen */
 @media (max-width: 768px) {
     header {
         text-align: center;
@@ -123,5 +137,109 @@ footer {
         font-size: 0.9rem;
     }
 }
+/*division main progam and featured speakers */
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(26, 25, 25);
+    border: 1px solid hsl(0, 0%, 47%);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    flex: 1 1 calc(15% - 5px); /* 5 cards per line */
+    background-color: hsl(0, 0%, 47%);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    margin: 0 0 10px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px); /* Dois cards por linha */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; /* Um card por linha */
+    }
+}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: hsl(0, 0%, 100%);
+    border: 0.5px solid hwb(0 100% 0%);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card2 {
+    flex: 1 1 calc(40% - 5%); /* 2 cards per line */
+    background-color: #fdf9f9;
+    border: 1px solid hwb(0 0% 100%);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px hsl(0, 11%, 96%);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+.card2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card2 h3 {
+    margin: 0 0 10px;
+}
+
+.card2 p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px); /* Dois cards por linha */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; /* Um card por linha */
+    }
+}
+
 
 
