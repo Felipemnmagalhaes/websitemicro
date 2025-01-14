@@ -58,27 +58,30 @@ main {
 
 }
 .h1text {
-    text-align: center;
+    text-align: left;
     color: #EC5242;
     font-size: 2rem;
+    margin-left: 10%;
    
 }
 .bigtext {
     font-size: 3em;
-            font-weight: bold;
-            background: linear-gradient(45deg, #ffbb00, orange, #e2500c);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent; /* Necessário para o efeito funcionar */
-        }
+    font-weight: bold;
+    background: linear-gradient(45deg, #ffbb00, orange, #e2500c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Necessário para o efeito funcionar */
+    margin-left: 10%;
+       }
     
     
-</style>
+
    
-}
+
 .text3{
     text-align: center;
     font-size: smaller;
     color:#D3D3D3;
+    
 }
 .box3 {
     display: flex;
@@ -89,18 +92,22 @@ main {
     border: 1px solid #D3D3D3;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-right: 20%;
+
 }
 .date{
-    text-align: center;
-    font-size: 2rem;
-    color: #e22929;
+    text-align: left;
+    font-size: 1rem;
+    color: #EC5242;
+    margin-left: 10%;
     
 }
 .local{
-    text-align: center;
-    font-size: medium;
-    color: hsla(0, 98%, 53%, 0.557);
-   
+    text-align: left;
+    font-size: 70%;
+    color: #EC5242(0, 98%, 53%, 0.557);
+    margin-left: 10%;
 }
 
 footer {
@@ -109,10 +116,10 @@ footer {
 }
 .tittlediv{
     text-align: center;
-    color: hsl(208, 15%, 67%);
+    color:#D3D3D3;
 }
 .div2{
-    background-color: rgb(26, 25, 25);
+    background-color: #272A31;
 }
 /* style for smaller mobile screen */
 @media (max-width: 768px) {
@@ -144,15 +151,15 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    background-color: rgb(26, 25, 25);
-    border: 1px solid hsl(0, 0%, 47%);
+    background-color: #272A31;
+    border: 1px solid #272A31;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card {
     flex: 1 1 calc(15% - 5px); /* 5 cards per line */
-    background-color: hsl(0, 0%, 47%);
+    background-color: #272A31;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
@@ -174,7 +181,7 @@ footer {
 .card p {
     margin: 0;
     font-size: 14px;
-    color: #555;
+    color:#D3D3D3;
 }
 
 @media (max-width: 768px) {
@@ -194,23 +201,24 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: hsl(0, 0%, 100%);
-    border: 0.5px solid hwb(0 100% 0%);
+    margin-left: 10%;
+    margin-right: 10%;    
+    background-color: #272A31;
+    border: 0.5px solid#D3D3D3;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card2 {
     flex: 1 1 calc(40% - 5%); /* 2 cards per line */
-    background-color: #fdf9f9;
+    background-color: #272A31;
     border: 1px solid hwb(0 0% 100%);
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px hsl(0, 11%, 96%);
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
+    font-size: 80%;
     
 }
 
@@ -226,7 +234,7 @@ footer {
 .card2 p {
     margin: 0;
     font-size: 14px;
-    color: #555;
+    color: #D3D3D3;
 }
 
 @media (max-width: 768px) {
@@ -240,6 +248,9 @@ footer {
         flex: 1 1 100%; /* Um card por linha */
     }
 }
-
+footer{
+    background-color: #272A31;
+    color: #D3D3D3;
+}
 
 
