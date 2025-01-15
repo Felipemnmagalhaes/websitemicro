@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.about{
+    background-color: #272A31;
+}
 /* general style */
 body {
     font-family: 'Lato', sans-serif;
