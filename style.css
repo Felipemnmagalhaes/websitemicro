@@ -4,9 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.about{
-    background-color: #272A31;
-}
+
 /* general style */
 body {
     font-family: 'Lato', sans-serif;
@@ -266,6 +264,15 @@ table{
     size: 100%;
 
 }
-
+.about{
+    text-align: center;
+    margin: 10%;
+    background-color: #272A31;
+    color: #D3D3D3;
+}
+.about1{
+    
+    background-color: #272A31;
+}
 
 
