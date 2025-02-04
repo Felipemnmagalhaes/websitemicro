@@ -70,7 +70,7 @@ main {
 .bigtext {
     font-size: 3em;
     font-weight: bold;
-    background: linear-gradient(45deg, #ffbb00, orange, #e2500c);
+    background: linear-gradient( #c59103, orange, hsl(0, 90%, 47%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; /* Necessário para o efeito funcionar */
     margin-left: 10%;
@@ -255,5 +255,17 @@ footer{
     background-color: #272A31;
     color: #D3D3D3;
 }
+
+.price{
+background-image: url(./fundo.png);
+}
+table{
+    margin: 20%;
+    color: #D3D3D3;
+    background-color: #272A31;
+    size: 100%;
+
+}
+
 
 
